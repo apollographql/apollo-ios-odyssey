@@ -6,13 +6,13 @@ class LaunchListViewModel: ObservableObject {
     @Published var notificationMessage: String?
     
     init() {
-        // TODO (Section 13 - https://www.apollographql.com/docs/ios/tutorial/tutorial-subscriptions#use-your-subscription)
+        // TODO (Part II - Write your first subscription)
     }
     
     // MARK: - Subscriptions
     
     func startSubscription() {
-        // TODO (Section 13 - https://www.apollographql.com/docs/ios/tutorial/tutorial-subscriptions#use-your-subscription)
+        // TODO (Part II - Write your first subscription)
     }
     
     private func handleTripsBooked(value: Int) {
@@ -34,11 +34,11 @@ class LaunchListViewModel: ObservableObject {
     // MARK: - Launch Loading
     
     func loadMoreLaunchesIfTheyExist() {
-        // TODO (Section 8 - https://www.apollographql.com/docs/ios/tutorial/tutorial-paginate-results#update-launchlistviewmodel-to-use-cursor)
+        // TODO (Part II - Paginate results)
     }
     
     func loadMoreLaunches() {
-        // TODO (Section 6 - https://www.apollographql.com/docs/ios/tutorial/tutorial-connect-queries-to-ui#configure-launchlistviewmodel)
+        // TODO (Part I - Connect your queries to your UI)
     }
     
 }

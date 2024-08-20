@@ -6,11 +6,11 @@ class DetailViewModel: ObservableObject {
     @Published var appAlert: AppAlert?
     
     init() {
-        // TODO (Section 9 - https://www.apollographql.com/docs/ios/tutorial/tutorial-complete-details-view#execute-the-query)
+        // TODO (Part II - Complete the details view)
     }
     
     func loadLaunchDetails() {
-        // TODO (Section 9 - https://www.apollographql.com/docs/ios/tutorial/tutorial-complete-details-view#execute-the-query)
+        // TODO (Part II - Complete the details view)
     }
     
     func bookOrCancel() {
@@ -19,21 +19,21 @@ class DetailViewModel: ObservableObject {
             return
         }
         
-        // TODO (Section 12 - https://www.apollographql.com/docs/ios/tutorial/tutorial-define-additional-mutations#implement-the-canceltrip-logic)
+        // TODO (Part II - Define additional mutations)
     }
     
     private func bookTrip() {
         print("Book Trip!")
-        // TODO (Section 12 - https://www.apollographql.com/docs/ios/tutorial/tutorial-define-additional-mutations#implement-the-booktrip-logic)
+        // TODO (Part II - Define additional mutations)
     }
     
     private func cancelTrip() {
         print("Cancel Trip!")
-        // TODO (Section 12 - https://www.apollographql.com/docs/ios/tutorial/tutorial-define-additional-mutations#implement-the-canceltrip-logic)
+        // TODO (Part II - Define additional mutations)
     }
     
     private func isLoggedIn() -> Bool {
-        // TODO (Section 10 - https://www.apollographql.com/docs/ios/tutorial/tutorial-first-mutation#display-the-login-view)
+        // TODO (Part II - Write your first mutation)
         return false
     }
     
